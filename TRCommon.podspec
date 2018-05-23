@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "TRCommon"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "纯碎文件."
   s.description  = <<-DESC
   实时不带工程的哈哈
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
 
 
-  s.source_files  = "TRMethods", "TRMethods/**/*.{h,m}"
+  s.source_files  = "TRMethods", "TRMethods/*.{h,m}"
   #s.exclude_files = "TRMethods/Exclude"
 
 
